@@ -1,0 +1,12 @@
+Source: ros-humble-ament-vitis
+Section: misc
+Priority: optional
+Maintainer: Víctor Mayoral Vilches <victor@accelerationrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-acceleration, ros-humble-ament-cmake-core, ros-humble-ament-cmake-ros, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-ament-vitis
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-acceleration, ros-humble-ament-cmake-core, ros-humble-ament-cmake-ros, ros-humble-ros-workspace
+Description: CMake macros and utilities to include Vitis platform into the ROS 2 build system (ament) and its development flows.
